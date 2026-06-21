@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Monthsary, My Love!</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,400;1,500;1,600&family=Dancing+Script:wght@600;700&family=Great+Vibes&family=Pinyon+Script&family=Special+Elite&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="eleventh.css">
+</head>
+<body>
+
+<!-- =================================================================
+     PAGE 1 — ENVELOPE  (was fifth.html)
+     ================================================================= -->
+<section id="page-envelope" class="page active">
+  <div class="scene" id="scene">
+
+    <h1 class="title">You got a mail!</h1>
+
+    <div class="envelope-wrap" id="envelope" title="Click to open">
+      <svg class="envelope-svg" viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="bodyGrad" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="var(--envelope-light)"/>
+            <stop offset="100%" stop-color="var(--envelope-dark)"/>
+          </linearGradient>
+          <linearGradient id="flapGrad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#a8202c"/>
+            <stop offset="100%" stop-color="var(--envelope-dark)"/>
+          </linearGradient>
+          <radialGradient id="goldGrad" cx="35%" cy="30%" r="75%">
+            <stop offset="0%" stop-color="var(--gold-light)"/>
+            <stop offset="55%" stop-color="var(--gold-mid)"/>
+            <stop offset="100%" stop-color="var(--gold-dark)"/>
+          </radialGradient>
+        </defs>
+
+        <rect x="6" y="6" width="388" height="248" rx="6" fill="url(#bodyGrad)" stroke="var(--envelope-edge)" stroke-width="3"/>
+        <polygon points="6,6 200,150 394,6" fill="url(#flapGrad)" stroke="var(--envelope-edge)" stroke-width="2.5" opacity="0.9"/>
+        <polygon points="6,254 100,254 6,190" fill="var(--envelope-edge)" opacity="0.35"/>
+        <polygon points="394,254 300,254 394,190" fill="var(--envelope-edge)" opacity="0.35"/>
+
+        <g class="seal">
+          <circle cx="200" cy="150" r="42" fill="url(#goldGrad)" stroke="var(--gold-dark)" stroke-width="2"/>
+          <circle cx="200" cy="150" r="42" fill="none" stroke="rgba(0,0,0,0.25)" stroke-width="1.5"/>
+          <circle cx="160" cy="178" r="6" fill="var(--gold-mid)"/>
+          <circle cx="238" cy="120" r="5" fill="var(--gold-light)" opacity="0.6"/>
+          <g stroke="#6b4612" stroke-width="2.4" fill="none" stroke-linecap="round">
+            <path d="M200 130 L200 172"/>
+            <path d="M200 138 C190 134 184 126 184 118"/>
+            <path d="M200 138 C210 134 216 126 216 118"/>
+            <path d="M200 150 C192 147 187 140 187 133"/>
+            <path d="M200 150 C208 147 213 140 213 133"/>
+            <path d="M200 162 C194 160 190 155 190 149"/>
+            <path d="M200 162 C206 160 210 155 210 149"/>
+          </g>
+        </g>
+      </svg>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- =================================================================
+     PAGE 2 — LETTER  (was letter.html)
+     ================================================================= -->
+<section id="page-letter" class="page">
+  <div class="letter-stage">
+    <div class="petal-field" aria-hidden="true" id="petals"></div>
+
+    <main class="letter-wrap">
+      <article class="letter-card">
+        <span class="washi washi--tl"></span>
+        <span class="washi washi--br"></span>
+
+        <svg class="sprig sprig--tl" viewBox="0 0 120 120" aria-hidden="true">
+          <g fill="none" stroke="#6b8e5a" stroke-width="1.6" stroke-linecap="round">
+            <path d="M10 95 C 30 70, 55 55, 95 30" />
+            <path d="M30 80 C 25 70, 22 62, 25 55" />
+            <path d="M55 60 C 50 50, 50 42, 55 35" />
+          </g>
+          <g fill="#7ea36a">
+            <ellipse cx="28" cy="74" rx="6"   ry="3"   transform="rotate(-30 28 74)" />
+            <ellipse cx="42" cy="66" rx="7"   ry="3.2" transform="rotate(-25 42 66)" />
+            <ellipse cx="58" cy="55" rx="6"   ry="3"   transform="rotate(-20 58 55)" />
+            <ellipse cx="74" cy="45" rx="6.5" ry="3"   transform="rotate(-15 74 45)" />
+          </g>
+          <g transform="translate(92 32)">
+            <g fill="#d98ca0">
+              <ellipse cx="0" cy="-3.5" rx="2.2" ry="3.2" />
+              <ellipse cx="0" cy="-3.5" rx="2.2" ry="3.2" transform="rotate(72)" />
+              <ellipse cx="0" cy="-3.5" rx="2.2" ry="3.2" transform="rotate(144)" />
+              <ellipse cx="0" cy="-3.5" rx="2.2" ry="3.2" transform="rotate(216)" />
+              <ellipse cx="0" cy="-3.5" rx="2.2" ry="3.2" transform="rotate(288)" />
+            </g>
+            <circle r="1.8" fill="#f6d28a" />
+          </g>
+        </svg>
+
+        <svg class="sprig sprig--br" viewBox="0 0 120 120" aria-hidden="true">
+          <g fill="none" stroke="#6b8e5a" stroke-width="1.6" stroke-linecap="round">
+            <path d="M10 95 C 30 70, 55 55, 95 30" />
+            <path d="M30 80 C 25 70, 22 62, 25 55" />
+          </g>
+          <g fill="#7ea36a">
+            <ellipse cx="42" cy="66" rx="7"   ry="3.2" transform="rotate(-25 42 66)" />
+            <ellipse cx="58" cy="55" rx="6"   ry="3"   transform="rotate(-20 58 55)" />
+          </g>
+          <g transform="translate(92 32)">
+            <g fill="#d98ca0">
+              <ellipse cx="0" cy="-3.5" rx="2.2" ry="3.2" />
+              <ellipse cx="0" cy="-3.5" rx="2.2" ry="3.2" transform="rotate(72)" />
+              <ellipse cx="0" cy="-3.5" rx="2.2" ry="3.2" transform="rotate(144)" />
+              <ellipse cx="0" cy="-3.5" rx="2.2" ry="3.2" transform="rotate(216)" />
+              <ellipse cx="0" cy="-3.5" rx="2.2" ry="3.2" transform="rotate(288)" />
+            </g>
+            <circle r="1.8" fill="#f6d28a" />
+          </g>
+        </svg>
+
+        <header>
+          <p class="letter-eyebrow">a little note · for you</p>
+          <h1 class="letter-title">to my safe place</h1>
+          <div class="letter-rule" aria-hidden="true">
+            <span></span>
+            <svg viewBox="0 0 24 24" width="14" height="14"><path d="M12 21s-7-4.5-9.5-9A5.5 5.5 0 0 1 12 6a5.5 5.5 0 0 1 9.5 6c-2.5 4.5-9.5 9-9.5 9z" fill="currentColor"/></svg>
+            <span></span>
+          </div>
+        </header>
+
+    <div class="letter-body-wrap">
+          <div class="letter-body">
+            <p><span class="dropcap">H</span>appy 32nd monthsary, lovey! 32 months with you feels like a beautiful journey full of love, laughter, memories, and lessons.</p>
+            <p>Thank you for always being by my side, for making me feel loved, safe, and appreciated every single day. No matter how hard life gets, having you makes everything lighter.</p>
+            <p>Here's to more monthsaries, more dreams together, and more memories we'll create. I hope we're still together until we reach our goal.</p>
+            <p class="signoff">I love you always, love. Happy 32nd monthsary! <span class="signoff-heart">♡</span></p>
+          </div>
+        </div>
+
+        <div class="wax-seal" aria-hidden="true">
+          <svg viewBox="0 0 40 40" width="34" height="34">
+            <g fill="#fff3da" opacity=".9">
+              <circle cx="20" cy="11" r="4" />
+              <circle cx="29" cy="20" r="4" />
+              <circle cx="20" cy="29" r="4" />
+              <circle cx="11" cy="20" r="4" />
+              <circle cx="20" cy="20" r="3.5" fill="#b88a2a" />
+            </g>
+          </svg>
+        </div>
+      </article>
+
+      <div class="nav-row">
+        <button type="button" class="next-pill" onclick="showPage('page-envelope')">
+          <svg viewBox="0 0 24 24" width="16" height="16"><path d="M19 12H5M11 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span>go back</span>
+        </button>
+        <button type="button" class="next-pill" onclick="showPage('page-memory')">
+          <span>turn the page</span>
+          <svg viewBox="0 0 24 24" width="16" height="16"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+
+    </main>
+  </div>
+</section>
+
+
+<!-- =================================================================
+     PAGE 3 — MEMORY GRID  (was memory.html)
+     ================================================================= -->
+<section id="page-memory" class="page page-memory">
+
+  <h1 class="memory-title">Our Moments Together ♥</h1>
+
+  <div class="memory-grid">
+    <div class="polaroid p1"><img src="ele1.jpg" alt=""><span>♡</span></div>
+    <div class="polaroid p2"><img src="ele2.jpg" alt=""><span>♡</span></div>
+    <div class="polaroid p3"><img src="ele3.jpg" alt=""><span>♡</span></div>
+    <div class="polaroid p4"><img src="ele4.jpg" alt=""><span>♡</span></div>
+    <div class="polaroid p5"><img src="ele5.jpg" alt=""><span>♡</span></div>
+    <div class="polaroid p6"><img src="ele6.jpg" alt=""><span>♡</span></div>
+    <div class="polaroid p7"><img src="ele7.jpg" alt=""><span>♡</span></div>
+    <div class="polaroid p8"><img src="ele8.jpg" alt=""><span>♡</span></div>
+  </div>
+
+  <div class="btn-group">
+    <button class="back-btn" type="button" onclick="showPage('page-letter')">← Back to Letter</button>
+    <button class="back-btn" type="button" onclick="showPage('page-reasons')">Next →</button>
+  </div>
+
+</section>
+
+
+<!-- =================================================================
+     PAGE 4 — REASONS WHY I LOVE YOU  (was reasons.html)
+     ================================================================= -->
+<section id="page-reasons" class="page page-reasons">
+
+  <h1 class="reasons-title">Reasons why i love you</h1>
+
+  <div class="reasons-layout">
+
+    <div class="reasons-col left">
+      <div class="reason-card">I love you because you always know how to make me smile, even on my hardest days.</div>
+      <div class="reason-card">I love you because your love makes me feel safe, valued, and appreciated.</div>
+      <div class="reason-card">I love you because you stay patient and understanding with me.</div>
+    </div>
+
+    <div class="flower-frame">
+      <img src="tulips.png" alt="flowers">
+    </div>
+
+    <div class="reasons-col right">
+      <div class="reason-card">I love you because being with you makes my heart the happiest it has ever been.</div>
+      <div class="reason-card">I love you because you make my life brighter just by being a part of it.</div>
+      <div class="reason-card">I love you because you believe in me, even when I struggle to believe in myself.</div>
+    </div>
+
+  </div>
+
+  <div class="nav">
+    <button class="nav-btn" type="button" onclick="showPage('page-memory')">← Back</button>
+    <button class="nav-btn" type="button" onclick="showPage('page-anothermonth')">Next →</button>
+  </div>
+
+</section>
+
+
+<!-- =================================================================
+     PAGE 5 — TO MORE MONTHS WITH YOU  (was anothermonth.html)
+     ================================================================= -->
+<section id="page-anothermonth" class="page page-anothermonth">
+    <!-- Add these inside #page-anothermonth, before .another-title -->
+<div class="hearts-bg">
+  <span class="float-heart" style="left:8%;  animation-delay:0s;   font-size:0.8rem;">♡</span>
+  <span class="float-heart" style="left:22%; animation-delay:1.2s; font-size:1.1rem;">♡</span>
+  <span class="float-heart" style="left:40%; animation-delay:2.4s; font-size:0.7rem;">♡</span>
+  <span class="float-heart" style="left:60%; animation-delay:0.8s; font-size:1rem;">♡</span>
+  <span class="float-heart" style="left:75%; animation-delay:1.9s; font-size:0.9rem;">♡</span>
+  <span class="float-heart" style="left:88%; animation-delay:3.1s; font-size:0.75rem;">♡</span>
+</div>
+<div class="deco-bow">🎀</div>
+
+  <div class="deco-star">⭐</div>
+  <div class="deco-heart">❤️</div>
+  <div class="deco-snoopy">🐶</div>
+
+  <h1 class="another-title">To More Months With You ♥</h1>
+
+  <div class="photo-row">
+    <div class="polaroid p1"><img src="eleven1.jpg" alt=""></div>
+    <div class="polaroid p2"><img src="eleven2.jpg" alt=""></div>
+    <div class="polaroid p3"><img src="eleven3.jpg" alt=""></div>
+    <div class="polaroid p4"><img src="eleven4.jpg" alt=""></div>
+  </div>
+
+  <div class="nav">
+    <button class="nav-btn" type="button" onclick="showPage('page-reasons')">← Back</button>
+    <button class="nav-btn" type="button" onclick="showPage('page-songforyou')">Next →</button>
+  </div>
+
+</section>
+
+
+<!-- =================================================================
+     PAGE 6 — SONG FOR YOU  (was songforyou.html)
+     ================================================================= -->
+<section id="page-songforyou" class="page page-songforyou">
+
+  <div class="stars" id="stars"></div>
+  <div class="deco-flower">🌺🌺</div>
+
+  <h1 class="song-title">Song for you</h1>
+
+<div class="tablet-frame">
+  <div class="tablet-screen">
+    <div id="songPlayerWrap">
+      <div id="songPlayer"></div>
+    </div>
+
+    <div id="songFallback" class="song-fallback" hidden>
+      <a id="songFallbackLink" class="song-fallback-btn"
+         href="https://www.youtube.com/watch?v=ptkkWb8aIbM"
+         target="_blank" rel="noopener">
+        ▶ Watch on YouTube
+      </a>
+    </div>
+  </div>
+</div>
+
+  <div class="nav">
+    <button class="nav-btn" type="button" onclick="showPage('page-anothermonth')">← Back</button>
+    <button class="nav-btn" type="button" onclick="showPage('page-finalpage')">Next →</button>
+  </div>
+
+</section>
+
+
+<!-- =================================================================
+     PAGE 7 — FINAL PAGE  (was finalpage.html)
+     ================================================================= -->
+<section id="page-finalpage" class="page page-finalpage">
+
+  <div class="bg"><img src="eleven1.jpg" alt=""></div>
+  <div class="overlay"></div>
+
+  <div class="content">
+    <h1 class="final-title">Happy Monthsary,<br>My love!</h1>
+    <button class="nav-btn final-back-btn" type="button" onclick="showPage('page-songforyou')">← Back</button>
+  </div>
+
+</section>
+
+
+<!-- Shared audio + music toggle, lives outside the page sections so it
+     persists no matter which "page" is active. -->
+<audio id="bgMusic" loop>
+  <source src="thescript.mp3" type="audio/mpeg">
+</audio>
+<button class="music-btn" id="musicBtn" title="Toggle music">♪</button>
+
+<script src="eleventh.js"></script>
+</body>
+</html>
